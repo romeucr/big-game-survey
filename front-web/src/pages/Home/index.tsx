@@ -14,17 +14,19 @@ const Home = () => (
                 Clique no botao abaixo e saiba quais sao os jogos que os gamers estao escolhendo!
             </h3>
             <Link to="/records">
-            <div className="home-actions">
-                <button className="home-btn">
-                    QUERO SABER QUAIS SAO
+                <div className="home-actions">
+                    <button className="home-btn">
+                        QUERO SABER QUAIS SAO
                 </button>
-                <div className="home-btn-icon">
-                    <ArrowIcon />
+                    <div className="home-btn-icon">
+                        <ArrowIcon />
+                    </div>
                 </div>
-            </div>
             </Link>
         </div>
-    <GamerImage />
+        <div className="gamer-container">
+            <GamerImage />
+        </div>
     </div>
 );
 
