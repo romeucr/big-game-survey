@@ -19,11 +19,8 @@ const Pagination = ({ totalPages = 0, goToPage, activePage }: Props) => {
                {item + 1}
             </button>
          ))}
-
       </div>
-
    )
-
 }
 
 export default Pagination;

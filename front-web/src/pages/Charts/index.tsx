@@ -42,7 +42,6 @@ const Charts = () => {
       
          const genderChartData = getGenderChartData(recordsResponse.data.content); 
          setGenderData(genderChartData);
-
       }
       getData();
    }, [])

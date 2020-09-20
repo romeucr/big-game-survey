@@ -11,7 +11,6 @@ export const buildBarSeries = (games: Game[], records: RecordItem[]) => {
       x: `${game.title} | ${game.platform}`,
       y: filteredGames.length
     }
-    
   });
 
   const sortedGames = mappedGames.sort((a, b) => {

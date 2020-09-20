@@ -26,7 +26,6 @@ const Home = () => (
         </div>
     <GamerImage />
     </div>
-
 );
 
 export default Home;
