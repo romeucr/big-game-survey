@@ -40,3 +40,4 @@ https://rcrdev-biggamesurvey.netlify.app/
 It may take some time to load the data because it is hosted on Heroku with a free account.
 
 ## Demo
+![Demo](https://github.com/romeucr/big-game-survey/blob/master/assets/demo.gif)
