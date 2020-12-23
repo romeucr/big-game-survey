@@ -1,76 +1,42 @@
 # Big Game Survey 
 
-# About
+## About
+This project is built with Java(backend), Typescript/ReactJS(frontend) and Typescript/React Native(mobile) during the first edition of the DevSuperior's Week, event organized by [DevSuperior](https://devsuperior.com.br).
 
+In the mobile application the user can vote for their favorite game/platform and in the web app all votes are listed and some graphics are shown.
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+### Mobile app screens
+![Mobile 1](https://github.com/romeucr/big-game-survey/blob/master/assets/mobile1.png) 
+![Mobile 2](https://github.com/romeucr/big-game-survey/blob/master/assets/mobile2.png)
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+### Web page screens
+![Web 1](https://github.com/romeucr/big-game-survey/blob/master/assets/web1.png)
 
-## Layout mobile
-![Mobile 1](https://github.com/josivaldobatista/pesquisa-game/blob/main/assets/mobile1.png) 
-![Mobile 2](https://github.com/josivaldobatista/pesquisa-game/blob/main/assets/mobile2.png)
+![Web 2](https://github.com/romeucr/big-game-survey/blob/master/assets/web2.png)
 
-## Layout web
-![Web 1](https://github.com/josivaldobatista/pesquisa-game/blob/main/assets/web1.png)
+### Conceptual Model
+![Conceptual Model](https://github.com/romeucr/big-game-survey/blob/master/assets/concept-model.png)
 
-![Web 2](https://github.com/josivaldobatista/pesquisa-game/blob/main/assets/web2.png)
-
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/josivaldobatista/pesquisa-game/blob/main/assets/modelo-conceitual.png)
-
-# Tecnologias utilizadas
-## Back end
+## Some technologies used:
+### Back end
 - Java
 - Spring Boot
 - JPA / Hibernate
 - Maven
-## Front end
+- H2 Database (test environment)
+- Postgresql (dev and prod environments)
+- [Heroku](https://www.heroku.com/)
+
+### Front end
 - HTML / CSS / JS / TypeScript
 - ReactJS
 - React Native
 - Apex Charts
 - Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+- [Netlify](https://www.netlify.com/)
 
-# Como executar o projeto
+## Try it!
+https://rcrdev-biggamesurvey.netlify.app/  
+It may take some time to load the data because it is hosted on Heroku with a free account.
 
-## Back end
-Pré-requisitos: Java 11
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
-# Autor
-
-Josivaldo Batista
-
-https://www.linkedin.com/in/josivaldobatista/
+## Demo
