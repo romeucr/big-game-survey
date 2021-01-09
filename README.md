@@ -27,6 +27,7 @@ In the mobile application the user can vote for their favorite game/platform and
 - [Netlify](https://www.netlify.com/)
 
 ## Try it!
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dc4c049d-39c3-4c76-a23e-d4337b669cec/deploy-status)](https://app.netlify.com/sites/rcrdev-biggamesurvey/deploys)  
 https://rcrdev-biggamesurvey.netlify.app/  
 It may take some time to load the data because it is hosted on Heroku with a free account.
 
