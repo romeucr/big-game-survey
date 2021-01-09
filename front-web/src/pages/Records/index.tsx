@@ -23,7 +23,7 @@ const Records = () => {
 
     return (
         <div className="page-container">
-            <Filters link="/charts" linkText="VER GRAFICOS" />
+            <Filters link="/charts" linkText="VER GRÁFICOS" />
             <table className="records-table" cellPadding="0" cellSpacing="0">
                 <thead>
                     <tr>
@@ -31,8 +31,8 @@ const Records = () => {
                         <th>NOME</th>
                         <th>IDADE</th>
                         <th>PLATAFORMA</th>
-                        <th>GENERO</th>
-                        <th>TITULO DO GAME</th>
+                        <th>GÊNERO</th>
+                        <th>TÍTULO DO GAME</th>
                     </tr>
                 </thead>
                 <tbody>
