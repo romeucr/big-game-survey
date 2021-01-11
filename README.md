@@ -18,7 +18,7 @@ In the mobile application the user can vote for their favorite game/platform and
 - Postgresql (dev and prod environments)
 - [Heroku](https://www.heroku.com/)
 
-### Front end
+### Front end (web and mobile)
 - HTML / CSS / JS / TypeScript
 - ReactJS
 - React Native
